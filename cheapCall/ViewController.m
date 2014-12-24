@@ -28,6 +28,10 @@
 
 - (IBAction)callMe {
     NSLog(@"test");
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    pasteboard.string = @"*177*05643321334#";
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://*177*05643321334#"]];
+
 }
 
 @end
