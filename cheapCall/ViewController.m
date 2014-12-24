@@ -35,6 +35,7 @@
 }
 
 - (IBAction)youPayForit:(id)sender {
+    NSLog(@"You will pay for it!");
 }
 
 @end
