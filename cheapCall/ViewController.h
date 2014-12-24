@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 -(IBAction)callMe;
+- (IBAction)youPayForit:(id)sender;
 
 @end
 
